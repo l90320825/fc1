@@ -1,0 +1,27 @@
+.menu-background{
+    background-color: #f2f4f7;
+    min-height: 500px;
+}
+
+.order-section .menu-order-content {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    left: 25% !important;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    padding-bottom: 3rem;
+}
+
+.menu-head-h3{
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.orderDetail-background {
+    background-color: #f2f4f7;
+}
+

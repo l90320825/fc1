@@ -1,0 +1,45 @@
+.customer-head {
+    margin-left: 15%;
+    color: var(--secondary-color);
+  }
+
+  .cardPos{
+    margin: auto;
+  }
+
+  .head-black {
+    padding: 1rem;
+    text-align: center;
+    color: black;
+  }
+
+  .mergin{
+    margin-left: 200px;
+  }
+
+  .sidenav{
+    width: 170px;
+    position:  relative;
+    z-index: 0;
+    top: 75px;
+    color: white;
+    left: 10px;
+    background:#743282;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+.customer-card-body {
+  height: 100% !important;
+  text-align: left;
+  margin: 2rem 1rem 1rem;
+
+}
+
+
+.customer-buttom {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  padding: 0rem;
+}

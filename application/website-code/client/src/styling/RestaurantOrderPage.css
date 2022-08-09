@@ -1,0 +1,24 @@
+.Title p{
+  text-align: center;
+  color:#dc9200;
+  background-color: #743282;
+  font-size: 50px;
+}
+
+.infoSheet{
+  width: 90%;
+  margin: 3px;
+  padding: 0px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.confirmButton{
+  border-radius: 3px;
+  border-color: #dc9200;
+  background-color: #743282;
+  text-align: center;
+  color: #dc9200;
+  width: 100%;
+  border-radius: 15px;
+}

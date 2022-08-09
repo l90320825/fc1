@@ -1,0 +1,418 @@
+.navbar-brand {
+  font-size: 1.5rem !important;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.card-img {
+  height: 400px !important;
+}
+
+.card-body {
+  height: 100% !important;
+}
+
+.map-name {
+  font-size: 15px !important;
+}
+
+/* Bootstrap  */
+
+.col-sm-4 {
+  width: 17.333333% !important;
+}
+
+/* NAVBAR START */
+.banner {
+  background-color: var(--primary-color) !important;
+}
+.banner h5 {
+  font-size: 0.9rem !important;
+}
+
+.banner .container {
+  margin-right: 0px;
+  padding: 2px 12px;
+}
+
+.nav {
+  position: relative;
+  bottom: 5px;
+}
+
+.nav-cart {
+  position: relative;
+  top: 15px;
+}
+
+.nav-active {
+  color: var(--primary-color) !important;
+}
+
+.navbar img {
+  width: 45px;
+  position: relative;
+  bottom: 5px;
+}
+
+.navbar .container-sm {
+  max-width: 561px;
+}
+
+.navbar .dropdown {
+  position: relative;
+  left: 14px;
+}
+
+.nav .nav-dropdown {
+  top: 15px;
+}
+
+.navbar form .btn-outline-success {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.navbar form .btn-outline-success:hover {
+  color: #fff !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.navbar .btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.navbar form .btn-outline-success:active {
+  background-color: none !important;
+}
+
+.navbar form .btn-outline-success:active:focus {
+  box-shadow: none !important;
+}
+.navbar .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: var(--primary-color) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--primary-color) !important;
+}
+.navbar .form-control {
+  border: 1px solid var(--primary-color) !important;
+}
+
+.navbar .btn-secondary {
+  color: #fff;
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+.nav span:hover {
+  color: var(--secondary-color) !important;
+  background-color: var(--white-color) !important;
+}
+.nav a {
+  text-decoration: none !important;
+}
+.nav .dropdown {
+  padding: 7px;
+}
+
+.nav .dropdown-item:focus,
+.dropdown-item:hover {
+  color: var(--primary-color) !important;
+  background-color: #fff !important;
+}
+
+.nav .btn-primary {
+  color: #fff;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.nav .btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.nav .btn-outline-primary:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.nav .btn-search {
+  color: var(--white-color) !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.nav .btn-logout {
+  color: #fff;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  height: 90%;
+  margin-top: 9%;
+  padding: 6px 10px;
+  margin-left: 20px;
+}
+
+.nav .btn-logout:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.nav .logh5 {
+  margin-top: 11%;
+}
+
+.restaurant-dropdown,
+.deliverer-dropdown {
+  margin-top: 15px;
+}
+
+/* NAVBAR END */
+
+/* BUTTON START */
+
+.hero .btn-outline-success {
+  color: var(--white-color) !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--primary-color-hover) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.btn-outline-success:active {
+  background-color: none !important;
+}
+
+.btn-outline-success:active:focus {
+  box-shadow: none !important;
+}
+
+/* BUTTON END */
+
+/* Restaurant Section */
+
+.restaurant-section .card-width {
+  width: 17rem;
+}
+
+.restaurant-section .card-img-top {
+  height: 215px;
+}
+.restaurant-section .card {
+  background-color: #fff !important;
+  background-clip: border-box;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.3rem;
+}
+
+.restaurant-section .card-title {
+  color: #464646;
+  font-weight: bold;
+}
+.restaurant-section .card-text {
+  color: rgb(146, 146, 146);
+}
+
+/* Join */
+
+/* .join-section {
+  max-width: 1000px !important;
+} */
+
+.join-section .row {
+  --bs-gutter-x: -12.5rem;
+}
+
+.join-section .card {
+  background-color: #fff !important;
+  background-clip: border-box;
+  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
+  margin-left: 35%;
+}
+.join-section .card-width {
+  width: 22rem;
+  height: 30rem;
+}
+
+.join-section .card-img-top {
+  margin-top: 10px;
+  height: 215px;
+}
+
+.join-section .card-title {
+  font-size: 25px !important;
+  color: #464646;
+  font-weight: bold;
+}
+.join-section .card-text {
+  color: #5f6368;
+  width: 250px;
+  font-weight: 400;
+  list-style-type: "→";
+  margin-left: 10px;
+}
+
+.join-section .card-text li {
+  text-align: start;
+  padding: 0 2px;
+}
+
+.join-section .btn-outline-success {
+  color: var(--white-color) !important;
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+  position: relative;
+  right: 36px;
+}
+
+.join-section .btn-outline-success:hover {
+  background-color: var(--secondary-color-hover) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+.join-about {
+  text-align: start;
+  position: relative;
+  margin-left: 130px;
+  padding: 20px 0;
+}
+
+.join-about p {
+  width: 406px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  .restaurant-section .restaurant-content {
+    left: 13% !important;
+  }
+  .join-section {
+    /* position: fixed; */
+    margin-left: 3px !important;
+  }
+}
+@media (max-width: 797px) {
+  .restaurant-section .restaurant-content {
+    left: 10% !important;
+  }
+}
+
+@media (max-width: 890px) {
+  .restaurant-section .card-width {
+    width: 15rem;
+  }
+}
+@media (max-width: 576px) {
+  .join-section {
+    margin-right: 210px !important;
+  }
+  .col-sm-4 {
+    width: 28.333333% !important;
+  }
+  .join-section {
+    position: relative;
+
+    margin-top: 107px;
+
+    right: 139px;
+  }
+  .join-about {
+    right: 37px;
+
+    width: 134px !important;
+  }
+  .join-about p {
+    width: 301px;
+  }
+
+  .restaurant-section .card-width {
+    height: 276px;
+    width: 9rem;
+  }
+  .restaurant-section .restaurant-content {
+    left: 0 !important;
+  }
+
+  .restaurant-section .card-img-top {
+    height: 119px;
+  }
+
+  .chef-about .lead {
+    width: 344px;
+  }
+  .hero .hero-content {
+    left: 52% !important;
+  }
+  .hero .h6 {
+    font-size: 0.9rem;
+    margin-right: 2px;
+  }
+  .card-title {
+    font-size: 0.9rem;
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 414px) {
+  .join-section {
+    right: 156px;
+  }
+  .hero .h6 {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+  }
+  .restaurant-section .card-width {
+    width: 7rem;
+  }
+}
+@media (max-width: 375px) {
+  .restaurant-section .card-width {
+    width: 6.5rem;
+  }
+  .restaurant-section .restaurant-content {
+    left: 1%;
+  }
+  .join-section {
+    margin-top: 175px;
+  }
+  .logo-font {
+    font-size: 2.5rem !important;
+  }
+  .chef-about .lead {
+    width: 318px;
+  }
+  .footer-nav {
+    margin-top: 30px !important;
+  }
+  .hero .h6 {
+    font-size: 0.75rem;
+    line-height: 1.4rem;
+  }
+  .nav {
+    margin-top: 10px !important;
+  }
+  .card-title {
+    font-size: 0.5rem;
+  }
+}

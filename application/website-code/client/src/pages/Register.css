@@ -1,0 +1,159 @@
+.bodyClass {
+  font-family: Lato;
+  height: 97vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0ca07b;
+}
+
+.formClass {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  min-width: 50px;
+  min-height: 30px;
+  padding: 20px 40px 40px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #fefefe;
+}
+
+.formH1Class {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 2.5em;
+  font-weight: lighter;
+  margin-top: 0.3em;
+  color: #db2269;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.info {
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.labelClass {
+  margin-bottom: 0.5em;
+  color: #4a4e69;
+  font-weight: lighter;
+}
+
+.inputClass {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Show only the auth-form  when user scrolls to 100 viewport height */
+/* Better UX/UI design*/
+.auth-form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f4f7;
+}
+
+.buttonClass {
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 0.938em;
+  border: none;
+  border-radius: 4px;
+  /* We should stick with school color for our btns for consistency! */
+  /* background-color: #db2269; */
+  background-color: var(--primary-color);
+  color: #fefefe;
+}
+.buttonClass:hover {
+  /* background-color: #db2269; */
+  background-color: var(--primary-color-hover);
+  color: #fefefe;
+}
+
+.error {
+  color: #db2269;
+  font-size: 0.5em;
+  display: relative;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* new restaurant registration css */
+
+.registrationFormContainer {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  width: 500px;
+  height: 690px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 20px var(--content-overlay);
+}
+
+.registrationFormContainer .btn-outline-primary {
+  color: #fff;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.registrationFormContainer .btn-outline-primary:hover {
+  color: #fff;
+  background-color: var(--primary-color-hover);
+  border-color: var(--primary-color);
+}
+
+.registrationFormContainer .formUploadButton {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--primary-color);
+  margin-bottom: 8px;
+}
+.registrationFormContainer .formUploadButton:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.formHeader {
+  text-align: center;
+}
+
+.formInput {
+  width: 385px;
+  height: 40px;
+  margin-top: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.formLabel {
+  margin-top: 5px;
+  align-self: start;
+  position: relative;
+  left: 45px;
+}
+
+.formButton {
+  position: relative;
+  color: white;
+  border-radius: 4px;
+  top: 20px;
+  width: 385px;
+  height: 40px;
+}

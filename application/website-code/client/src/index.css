@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+:root {
+  --primary-color: #743282;
+  --primary-color-hover: rgb(96, 30, 109);
+  --secondary-color: #dc9200;
+  --secondary-color-hover: #b87d07;
+  --logo-font: "Ultra", serif !important;
+  --content-overlay: rgba(0, 0, 0, 0.5);
+  --white-color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 340px;
+  width: 55% !important;
+  grid-gap: 1%;
+}
+
+.white-color-font {
+  color: var(--white-color);
+}
+.primary-color-font {
+  color: var(--primary-color);
+}
+
+.primary-color-bg {
+  background-color: var(--primary-color) !important;
+}
+
+.secondary-color-font {
+  color: var(--secondary-color) !important;
+}
+
+.logo-font {
+  font-family: var(--logo-font);
+  font-size: 3.5rem !important;
+}
+
+.footer-logo-font {
+  font-family: var(--logo-font);
+  font-size: 1.5rem !important;
+}
+
+/* Home page */
+.hero {
+  position: relative;
+  background-color: var(--primary-color);
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* Overlay */
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--content-overlay);
+}
+.hero .hero-content {
+  position: absolute;
+  display: flex;
+  /* stay in middle */
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Restaurant Section */
+
+.restaurant-section {
+  position: relative;
+  height: 100vh;
+}
+
+.restaurant-section .restaurant-content {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  left: 25% !important;
+}
+
+/* Join */
+.join-section {
+  /* position: fixed; */
+  margin-left: 76px !important;
+}
+
+.join-section .btn-link {
+  margin-left: 65px;
+  width: 250px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.join-section .card-deliverer {
+  margin-top: 4rem;
+}
+.join-section .btn-partner {
+  margin-top: 1rem !important;
+}
+
+.join-section .card-user {
+  font-size: 20px !important;
+}
+.join-section .card-title-right-1 {
+  position: relative;
+  right: 50px;
+}
+.join-section .card-title-right-2 {
+  position: relative;
+  right: 35px;
+}
+
+/* CHEF SECTION */
+
+.chef-img {
+  position: relative;
+  width: 367px;
+  left: 2px;
+}
+
+.chef-content {
+  position: relative;
+  left: 10%;
+}
+
+.chef-section {
+  background-color: var(--secondary-color);
+}
+.chef-about {
+  margin-top: 80px !important;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--white-color);
+  /* background-color: var(--primary-color); */
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--primary-color-hover) !important;
+  text-decoration: underline !important;
+}

@@ -1,0 +1,41 @@
+img {
+    width: 80%;
+    height: 50%;
+  }
+
+  .wrapperD{
+    margin-left: 25% !important;
+    width: 56%;
+  }
+  
+  .directions{
+    color:white;
+    background-color: #743282;
+    margin:auto;
+    display:block;
+    width: 200px;
+    cursor: pointer;
+   
+}
+
+.directions:hover{
+    background-color: var(--primary-color-hover);
+    color: #fefefe;
+  }
+
+.cancelOrder{
+    color:white;
+    background-color: #743282;
+    border: none;
+    margin:auto;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    display:block;
+    width: 200px;
+    cursor: pointer;
+}
+
+.cancelOrder:hover{
+    background-color: var(--primary-color-hover);
+    color: #fefefe;
+  }

@@ -1,0 +1,163 @@
+:root {
+    --primary-color: #743282;
+    --primary-color-hover: rgb(96, 30, 109);
+    --secondary-color: #dc9200;
+    --secondary-color-hover: #b87d07;
+    --logo-font: "Gochi Hand", cursive;
+    --content-overlay: rgba(0, 0, 0, 0.5);
+    --white-color: #fff;
+  }
+
+
+
+
+.head {
+    
+    color: black;
+}
+
+.text {
+    text-align: right;
+    color: rgba(0, 0, 0, 0);
+}
+
+.center-text {
+    text-align: center;
+   
+}
+
+
+.Customer-button {
+        display: flex;
+        background-color:  var(--primary-color);
+        color: white;
+        margin: auto;
+        border: none;
+        padding: 10px 100px;
+}
+
+.cart-button{
+    min-width: 55%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 0.938em;
+    border: none;
+    border-radius: 4px;
+    /* We should stick with school color for our btns for consistency! */
+    /* background-color: #db2269; */
+    background-color: var(--primary-color);
+    color: #fefefe;
+
+}
+
+.modal-form {
+    padding: 5%;
+    text-align: center;
+   
+   
+}
+
+.modal-form h1{
+    
+        margin-bottom: 20px;
+        text-align: left;
+    
+   
+}
+
+.modal-form h4{
+    
+    margin-bottom: 20px;
+    text-align: left;
+
+
+}
+
+.modal-form img{
+    
+    width: 18%;
+    
+
+
+}
+
+.map {
+    width: 100% !important;
+}
+
+.cart-button:hover{
+    background-color: var(--primary-color-hover);
+    color: #fefefe;
+}
+  
+
+.inputField {
+    display: block;
+    margin: auto;
+    margin-top:1rem;
+}
+
+.form{
+    
+   
+    margin: auto;
+    left: 25% !important;
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    border: 1px solid var(--primary-color);
+   
+
+}
+
+.formH2Class {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-top: 0.3em;
+    color: #db2269;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.formP{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
+
+.linkClass{
+    min-width: 100%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 0.938em;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    /* We should stick with school color for our btns for consistency! */
+    /* background-color: #db2269; */
+    background-color: var(--primary-color);
+    color: #fefefe;
+}
+
+.linkClass:hover{
+    background-color: var(--primary-color-hover);
+    color: #fefefe;
+}
+
+.customer-card-title{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+
+}
+
+
+
+  

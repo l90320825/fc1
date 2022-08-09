@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #743282;
+    --primary-color-hover: rgb(96, 30, 109);
+    --secondary-color: #dc9200;
+    --secondary-color-hover: #b87d07;
+    --logo-font: "Gochi Hand", cursive;
+    --content-overlay: rgba(0, 0, 0, 0.5);
+    --white-color: #fff;
+  }
+  
+@media screen and (min-width: 768px){
+.fshHme {
+    grid-template-columns: repeat(2, calc(50% - 8px));
+    gap: 16px;
+}
+}
+
+.fshHme {
+    column-count: unset;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.gSXFrS {
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 0px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+}
+
+.hero-bg {
+    background-color: var(--secondary-color);
+}
+
+.Modal-size{
+    padding:100px;
+}
+
+.customer-button{
+    border: none;
+}

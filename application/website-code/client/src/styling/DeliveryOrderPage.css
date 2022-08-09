@@ -1,0 +1,55 @@
+.Title p{
+    text-align: center;
+    color:#dc9200;
+    background-color: #743282;
+    font-size: 50px;
+  }
+
+  .infoCard {
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    margin: 10px;
+    box-shadow: 0px 8px 36px #222;
+}
+  
+ /* .infoSheet{
+    width: 90%;
+    margin: 3px;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }*/
+
+  .confirmButton{
+    font-size: 24px;
+    min-width: 55%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 0.938em;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: #fefefe;
+  }
+
+  .confirmButton:hover{
+    background-color: var(--primary-color-hover);
+    color: #fefefe;
+  }
+
+  .delivery-wrapper{
+    margin-left:25%;
+  }
+  
+ /* .confirmButton{
+    border-radius: 3px;
+    border-color: #dc9200;
+    background-color: #743282;
+    text-align: center;
+    color: #dc9200;
+    width: 100%;
+    border-radius: 15px;
+  }*/
